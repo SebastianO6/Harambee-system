@@ -41,6 +41,8 @@ export default function Register() {
           required
         />
         <button type="submit">Register</button>
+        <p>Already have an accout? </p>
+        <button onClick={() => navigate('/login')}>Log in</button>
       </form>
     </div>
   );
